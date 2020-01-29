@@ -29,7 +29,7 @@
 	 (eval-result (evaluate expression))
 	 (exec-result (execute (comp expression) '())))
     (assert (= eval-result (car exec-result)))
-    (format t "For the exrpression ~a~%result of eval = ~a~%result of exec = ~a~%"
+    (format t "For the expression ~a~%result of eval = ~a~%result of exec = ~a~%"
 	    expression
 	    eval-result
 	    exec-result)))

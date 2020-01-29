@@ -39,7 +39,7 @@ NIL
 
 COM-TZJ-EXPR-COMPILER> (main)
 #. (Add #. (Val 1) #. (Val 2))
-For the exrpression #.(ADD #.(VAL 1) #.(VAL 2))
+For the expression #.(ADD #.(VAL 1) #.(VAL 2))
 result of eval = 3
 result of exec = (3)
 ```

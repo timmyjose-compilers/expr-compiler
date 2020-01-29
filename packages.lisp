@@ -3,4 +3,4 @@
 (defpackage #:com-tzj-expr-compiler
   (:use #:common-lisp
         #:cl-algebraic-data-type)
-  (:export #:eval #:exec))
+  (:export #:evaluate #:execute))

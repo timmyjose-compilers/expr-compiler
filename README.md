@@ -43,3 +43,7 @@ For the expression #.(ADD #.(VAL 1) #.(VAL 2))
 result of eval = 3
 result of exec = (3)
 ```
+
+# LICENCE
+
+See [LICENCE](LICENSE.md).
